@@ -5,7 +5,7 @@
             "domains": [
                 {
                     "name": "AMITT",
-                    "data": ["assets/amitt.json"]
+                    "data": ["amitt-navigator-subtechniques/assets/amitt.json"]
                 }
             ]
         },
