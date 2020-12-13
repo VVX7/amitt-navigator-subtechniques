@@ -7086,7 +7086,7 @@ var DataService = /** @class */ (function () {
     DataService.prototype.getConfig = function (refresh) {
         if (refresh === void 0) { refresh = false; }
         if (refresh || !this.configData$) {
-            this.configData$ = this.http.get("./assets/config.json");
+            this.configData$ = this.http.get("./amitt-navigator-subtechniques/assets/config.json");
         }
         return this.configData$;
     };
