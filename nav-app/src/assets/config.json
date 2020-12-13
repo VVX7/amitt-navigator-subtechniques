@@ -1,14 +1,23 @@
 {
     "versions": [
         {
-            "name": "ATT&CK v8", 
+            "name": "AMITT",
             "domains": [
-                {   
-                    "name": "Enterprise", 
+                {
+                    "name": "AMITT",
+                    "data": ["assets/amitt.json"]
+                }
+            ]
+        },
+        {
+            "name": "ATT&CK v8",
+            "domains": [
+                {
+                    "name": "Enterprise",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v8.1/enterprise-attack/enterprise-attack.json"]
                 },
-                {   
-                    "name": "Mobile", 
+                {
+                    "name": "Mobile",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v8.1/mobile-attack/mobile-attack.json"]
                 },
                 {
@@ -18,27 +27,27 @@
             ]
         },
         {
-            "name": "ATT&CK v7", 
+            "name": "ATT&CK v7",
             "domains": [
-                {   
-                    "name": "Enterprise", 
+                {
+                    "name": "Enterprise",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v7.2/enterprise-attack/enterprise-attack.json"]
                 },
-                {   
-                    "name": "Mobile", 
+                {
+                    "name": "Mobile",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v7.2/mobile-attack/mobile-attack.json"]
                 }
             ]
         },
         {
-            "name": "ATT&CK v6", 
+            "name": "ATT&CK v6",
             "domains": [
-                {   
-                    "name": "Enterprise", 
+                {
+                    "name": "Enterprise",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v6.3/enterprise-attack/enterprise-attack.json"]
                 },
-                {   
-                    "name": "Mobile", 
+                {
+                    "name": "Mobile",
                     "data": ["https://raw.githubusercontent.com/mitre/cti/ATT%26CK-v6.3/mobile-attack/mobile-attack.json"]
                 }
             ]
